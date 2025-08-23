@@ -29,7 +29,7 @@ Una Progressive Web App para registrar y seguir el historial de partidas entre a
 | **Service Workers** | Funcionalidad offline y caching |
 
 ## 🏗️ Arquitectura del Proyecto
-
+```
 src/
 ├── index.html # Página principal
 ├── manifest.json # Configuración PWA
@@ -42,26 +42,28 @@ src/
 │ ├── auth.js # Manejo de autenticación
 │ └── database.js # Operaciones con la base de datos
 └── images/ # Íconos y assets visuales
-
-text
+```
 
 ## 🔐 Sistema de Seguridad Implementado
 
 La aplicación cuenta con reglas de seguridad robustas en Firebase:
 
-``json
+## 📊 Estructura de Datos
+
+```javascript
 {
-  "rules": {
-    "partidas": {
-      ".read": "auth != null",
-      ".write": "auth != null",
-      "$partidaId": {
-        ".validate": "newData.hasChildren(['jugador', 'puntaje', 'fecha'])"
-      }
+  "partidas": {
+    "partida_001": {
+      "jugador": "nombre_jugador",
+      "juego": "nombre_del_juego",
+      "puntaje": 150,
+      "resultado": "victoria",
+      "fecha": "2024-03-20T18:30:00Z",
+      "uid": "user_id_del_creador"
     }
   }
 }
-
+```
 
 🚀 Flujo de Uso
 Acceso: Los usuarios ingresan via invitación
@@ -75,7 +77,7 @@ Visualización: Consulta del historial en tiempo real
 Sincronización: Datos actualizados across dispositivos
 
 📊 Estructura de Datos
-javascript
+```javascript
 {
   "partidas": {
     "partida_001": {
@@ -88,6 +90,8 @@ javascript
     }
   }
 }
+
+```
 🔧 Configuración para Desarrollo
 Clonar repositorio
 
