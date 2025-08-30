@@ -7,7 +7,7 @@
 Una Progressive Web App para registrar y seguir el historial de partidas entre amigos, con sincronización en tiempo real.
 
 ## 🌐 Demo en Producción
-**URL oficial:** 🛠️ Demo [his](https://historialpartidas.web.app/)
+**URL oficial:** 🛠️ Demo [https://historialpartidas.web.app]
 
 ## ✨ Características Principales
 
