@@ -7,7 +7,7 @@
 Una Progressive Web App para registrar y seguir el historial de partidas entre amigos, con sincronización en tiempo real.
 
 ## 🌐 Demo en Producción
-**URL oficial:** 🛠️ contactanos para ver Demo
+**URL oficial:** 🛠️ Demo [his](https://historialpartidas.web.app/)
 
 ## ✨ Características Principales
 
@@ -24,8 +24,8 @@ Una Progressive Web App para registrar y seguir el historial de partidas entre a
 | **Firebase Realtime Database** | Base de datos en tiempo real |
 | **Firebase Hosting** | Deployment y hosting de la PWA |
 | **Firebase Authentication** | Control de acceso y seguridad |
-| **JavaScript Vanilla** | Lógica de la aplicación |
-| **HTML5 & CSS3** | UI/UX y responsive design |
+| **JavaScript** | Lógica de la aplicación |
+| **HTML & CSS** | UI/UX y responsive design |
 | **Service Workers** | Funcionalidad offline y caching |
 
 ## 🏗️ Arquitectura del Proyecto
@@ -106,18 +106,18 @@ Realizar pruebas con proyecto de Firebase de desarrollo
 👥 Audience Objetivo
 Grupo cerrado de amigos
 
-Comunidades gaming pequeñas
+- **Comunidades gaming pequeñas
 
-Sesiones de juego privadas
+- **Sesiones de juego privadas
 
 🎯 Próximas Mejoras
 Sistema de rankings y líderboards
 
-Estadísticas avanzadas por jugador
+- **Estadísticas avanzadas por jugador
 
-Notificaciones push para nuevas partidas
+- **Notificaciones push para nuevas partidas
 
-Modo torneo con fases eliminatorias
+- **Modo torneo con fases eliminatorias
 
 👨‍💻 Desarrollado por
 Hugo Alcides Riveros
